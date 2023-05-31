@@ -1,12 +1,12 @@
 {
-  "name": "ai-cli",
+  "name": "@momenthana/ai-cli",
   "version": "0.0.1",
   "description": "",
   "author": "",
-  "private": true,
   "license": "UNLICENSED",
   "bin": {
-    "crun": "dist/main.js"
+    "ai-cli": "dist/main.js",
+    "ai": "dist/main.js"
   },
   "scripts": {
     "build": "nest build",
